@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    border: none;
+    background: none;
+    color: white;
+}
+
+.first-third{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex: 1;
+    background-color: #1f2937;
+    color: white;
+}
+
+.left-side{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 100px;
+    text-align: left;
+}
+
+.text,
+.subtext{
+    text-align: left;
+    color: white;
+}
