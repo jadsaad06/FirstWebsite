@@ -8,7 +8,7 @@ ul{
     padding: 0;
 }
 
-button{
+ul button{
     border: none;
     background: none;
     color: white;
@@ -29,15 +29,47 @@ button{
 
 .left-side{
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #1f2937;
     padding: 100px;
     text-align: left;
+    gap: 50px;
+}
+
+.infortmation{
+    flex-direction: column;
 }
 
 .text,
 .subtext{
     text-align: left;
+}
+
+.text{
+    font-weight: extra-bold; 
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up{
+    border: 2px;
+    background: #3882F6;
+    align-self: flex-start;
     color: white;
+    padding: 12px;
+    margin: 4px 2px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.image{
+    align-self: flex-end;
+    padding: 50px 75px;
+    background: grey;
+
 }
