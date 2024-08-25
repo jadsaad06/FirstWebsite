@@ -164,6 +164,39 @@ ul button {
 
 /* Section 4 */
 
-#section.4{
-    padding: 150px;
+#section-4{
+    padding: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#call-to-action-container{
+    background-color:#3882F6;
+    padding: 40px 100px;
+    border-radius: 20px;
+    flex-grow: 0.5;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+}
+
+#CTA{
+    font-size: 36px;
+    font-weight: bold;
+}
+#CTA-subtext{
+    color: #E5E7EB;
+}
+
+#CTA-button{
+    color: white;
+    align-self: center;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: white;
+    padding: 15px 25px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
